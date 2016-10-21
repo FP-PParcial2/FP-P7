@@ -23,14 +23,14 @@ public class FPP7 {
         mostrar(a);
        
     }
-public static int pedirKilometrosSobreHoras(){
+public static int pedirKilometrosSobreHoras(){//Metodo Pedir cantidad en K/M
         int KilometrosXHora;
         Scanner teclado=new Scanner(System.in);
         System.out.println("Introduce K/H");
         KilometrosXHora=teclado.nextInt();
         return KilometrosXHora;
     }
-    public static void mostrar(double a){
+    public static void mostrar(double a){//Mostrar cantidad covertida en M/S
         double r;
         r= (a*1000)/3600;
         System.out.println(a+ " K/H " + " equivale a " + r + " M/S");
